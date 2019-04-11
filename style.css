@@ -1,0 +1,22 @@
+body {
+  padding: 1em 10em;
+}
+
+.name {
+  color: tan;
+  font-size: 50px;
+}
+
+#contact {
+  display: flex;
+  width: 100%
+}
+
+.contact {
+  padding: 1em;
+}
+
+a { 
+  color: black; 
+  text-decoration: none;
+}
