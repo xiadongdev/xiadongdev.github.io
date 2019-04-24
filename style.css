@@ -151,6 +151,11 @@ h2.title:after {
 /* =====================================
           SKILL STACK
 ======================================= */
+.skills-container .up {
+  display: table-cell; 
+  height: 6em;
+}
+
 .skills h5 {
   margin-bottom: 10px;
   padding: 0 5px;
@@ -199,9 +204,10 @@ section.employment h4 {
   font-size: 16px;
 }
 
-section.employment h5 {
+section .employment-date {
   margin-bottom: 10px;
   font-weight: 500;
+  color:#424250
 }
 
 section.employment p {
@@ -243,6 +249,8 @@ section.employment p {
   font-weight: 500;
   font-size: 12px;
   padding-bottom: 5px;
+  color: #424250;
+  float: right;
 }
 
 .projects p {
