@@ -269,7 +269,35 @@ img.zoom {
   z-index: 1;
 }
 
+img.down {
+  visibility: hidden;
+  border-radius: 6px;
+  width: 500%;
+  top: -120px;
+  left: 105%; 
+  position: absolute;
+  z-index: 1;
+}
+
+img.last {
+  visibility: hidden;
+  border-radius: 6px;
+  width: 500%;
+  top: -280px;
+  left: 105%; 
+  position: absolute;
+  z-index: 1;
+}
+
 img.img-icon:hover + img.zoom {
+  visibility: visible;
+}
+
+img.img-icon:hover + img.down {
+  visibility: visible;
+}
+
+img.img-icon:hover + img.last {
   visibility: visible;
 }
 
