@@ -100,6 +100,17 @@ p {
 /* ======================
        ABOUT ME
 ======================= */
+.avatar {
+  height: 4em;
+  border-radius: 50%;
+  border: 1px dotted tan;
+  margin-top: 1em;
+}
+
+.me.col-xs-12 {
+  padding-left: 0;
+}
+
 h2.title {
   font-size: 24px;
   line-height: 24px;
@@ -117,7 +128,7 @@ h2.title:after {
   display: inline-block;
   width: 100%;
   vertical-align: middle;
-  border-bottom: 4px solid tan;
+  border-bottom: 4px dotted tan;
   overflow: hidden;
   justify-content: space-around;
 }
