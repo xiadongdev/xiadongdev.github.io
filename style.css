@@ -2,7 +2,7 @@ body{
   font-family: 'Titillium Web', sans-serif;
   color: #252525;
   box-sizing: border-box;
-  padding: 1em 11em;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -13,6 +13,7 @@ h2 {
 .top-container{
   display: flex;
   width: 100%;
+  justify-content: space-between;
 }
 
 .top-container .right{
