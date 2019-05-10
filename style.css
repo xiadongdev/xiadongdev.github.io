@@ -1,14 +1,35 @@
-body {
-  color: white;
-  background-color: white;
+body{
+  font-family: 'Titillium Web', sans-serif;
+  color: #252525;
   box-sizing: border-box;
+  padding: 1em 11em;
+  margin: 0 auto;
 }
 
-hr {
-  width: 95px;
-  margin: 0 0 30px;
-  border-width: 4px;
-  border-color: #424250;
+h2 {
+  text-align: center;
+}
+
+.top-container{
+  display: flex;
+  width: 100%;
+}
+
+.top-container .right{
+  text-align: right;
+}
+
+.top-container .name{
+  font-size: 4em;
+}
+
+.top-container .location{
+  color: grey;
+  font-size: 0.8em;
+}
+
+.top-container .quote{
+  color: grey;
 }
 
 a {
@@ -16,384 +37,54 @@ a {
   color: #252525;
 }
 
-a:hover {
-  cursor: pointer;
-  color: #424250;
-}
 
-.row {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.container {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.img-container {
-  height: 325px;
-  overflow: hidden;
-}
-
-.img-container img {
-  display: block;
-  height: 100%;
-}
-
-.main-container {
-  background-color: white;
-  max-width: 850px;
-}
-
-/* ======================
-        TYPOGRAPHY
-======================= */
-body {
-  font-family: "Poppins", sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: tan;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-variant-ligatures: common-ligatures;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 1.2;
-}
-
-p {
-  font-family: "PT Sans", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 20px;
-  margin: 0;
-  color: #424250;
-}
-
-/* ======================
-    SPACING & ALIGNMENT
-======================= */
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card {
-  padding: 10px;
-  background-color: white;
-}
-
-/* ======================
-       ABOUT ME
-======================= */
 .avatar {
-  height: 4em;
+  height: 12em;
   border-radius: 50%;
   border: 1px dotted tan;
   margin-top: 1em;
 }
 
-.me.col-xs-12 {
-  padding-left: 0;
+.red {
+  color: rgb(173, 16, 16)
 }
 
-h2.title {
-  font-size: 24px;
-  line-height: 24px;
-  font-weight: 700;
-  margin: 6px 0;
-  letter-spacing: 1.2px;
-  text-align: left;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-h2.title:after {
+/* h2.title:after {
   content: "";
   margin-left: 10px;
   display: inline-block;
   width: 100%;
   vertical-align: middle;
-  border-bottom: 4px dotted tan;
+  border-bottom: 4px dotted rgb(173, 16, 16);
   overflow: hidden;
   justify-content: space-around;
-}
-
-.main-name {
-  font-size: 54px;
-  color: tan;
-}
-
-.summary-container {
-  padding-top: 20px;
-}
+} */
 
 .summary-text {
-  padding-right: 15px;
+  text-align: justify;
+  width: 100%;
 }
 
-.summary-container h3 {
-  margin-bottom: 20px;
+table h5{
+  line-height: 30%;
 }
 
-.summary-container p {
-  margin-bottom: 10px;
-}
-
-.summary-container a {
-  font-weight: 500;
-}
-
-/* =====================================
-          SKILL STACK
-======================================= */
-.skills-container .up {
-  display: table-cell; 
-  height: 6em;
-}
-
-.skills h5 {
-  margin-bottom: 10px;
-  padding: 0 5px;
-}
-
-.skills p {
-  padding: 0 5px;
-}
-
-/* =====================================
-          CONTACT & LINKS
-======================================= */
-.link-container {
-  background-color: white;
-  margin-bottom: 10px;
-}
-
-.contact-list {
-  color: #252525;
+.title-company {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.contact-list > li {
-  display: inline-flex;
-  padding-top: 10px;
-  border-radius: 2px;
-}
-
-/* =====================================
-            EMPLOYMENT
-======================================= */
-.employment-container {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-section.employment {
-  margin-bottom: 20px;
-}
-
-section.employment h4 {
-  padding: 10px 0 8px 0;
-  font-size: 16px;
-}
-
-section .employment-date {
-  margin-bottom: 10px;
-  font-weight: 500;
-  color:#424250
-}
-
-section.employment p {
-  margin: 5px 0;
-  padding: 5px 0;
-}
-
-.employment-link {
-  color: #424250;
-  float: right;
-  text-decoration: none;
-
-}
-
-.employment-link a {
-  color: #424250;
-}
-
-.employment-link a:hover {
-  color: #252525;
-}
-
-/* =====================================
-              PROJECTS
-======================================= */
-.project {
-  max-width: 428px;
-  margin: 0 auto 10px;
-}
-
-
-.projects h5 {
-  margin: 5px 0;
-}
-
-.project-date {
-  font-weight: 500;
-  font-size: 12px;
-  padding-bottom: 5px;
-  color: #424250;
-  float: right;
-}
-
-.projects p {
-  margin-bottom: 5px;
-}
-
 img.img-icon {
-  width: 100%;
-  height: 70px;
+  width: 8em;
+  height: 4em;
   border-radius: 6px;
 }
 
-img.zoom {
-  visibility: hidden;
-  border-radius: 6px;
-  width: 500%;
-  top: -10px;
-  left: 105%; 
-  position: absolute;
-  z-index: 1;
+.employment-date {
+  font-size: 0.9em;
+  color: grey;
 }
 
-img.down {
-  visibility: hidden;
-  border-radius: 6px;
-  width: 500%;
-  top: -120px;
-  left: 105%; 
-  position: absolute;
-  z-index: 1;
+.table-icon {
+  width: 20%;
 }
-
-img.last {
-  visibility: hidden;
-  border-radius: 6px;
-  width: 500%;
-  top: -280px;
-  left: 105%; 
-  position: absolute;
-  z-index: 1;
-}
-
-img.img-icon:hover + img.zoom {
-  visibility: visible;
-}
-
-img.img-icon:hover + img.down {
-  visibility: visible;
-}
-
-img.img-icon:hover + img.last {
-  visibility: visible;
-}
-
-/* =====================================
-          FOOTER
-======================================= */
-.footer {
-  padding: 10px 0 20px;
-  text-align: center;
-}
-
-.footer p {
-  color: #848484;
-  font-size: 14px;
-}
-
-/* =====================================
-            MEDIA QUERIES
-======================================= */
-@media screen and (max-width: 480px) {
-  .main-name {
-    font-size: 45px;
-  }
-
-  .summary-container h3 {
-    font-size: 22px;
-  }
-
-  .employment-link {
-    display: inline-flex;
-    float: none;
-  }
-
-  .employment-title {
-    padding-right: 12em;
-  }
-}
-@media screen and (max-width: 768px) {
-  .github-corner {
-    display: none;
-  }
-
-  .img-container {
-    height: 300px;
-    overflow: hidden;
-  }
-
-  .main-name {
-    text-align: center;
-  }
-
-  .summary-container h3 {
-    text-align: center;
-  }
-
-  .summary-container {
-    padding-top: 0;
-  }
-}
-/* =====================================
-            GITHUB CORNER LINK
-======================================= */
-.github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out;
-}
-
-@keyframes octocat-wave {
-  0%, 100% {
-    transform: rotate(0);
-  }
-  20%, 60% {
-    transform: rotate(-25deg);
-  }
-  40%, 80% {
-    transform: rotate(10deg);
-  }
-}
-@media (max-width: 500px) {
-  .github-corner:hover .octo-arm {
-    animation: none;
-  }
-
-  .github-corner .octo-arm {
-    animation: octocat-wave 560ms ease-in-out;
-  }
-}
-
-/*# sourceMappingURL=styles.css.map */
